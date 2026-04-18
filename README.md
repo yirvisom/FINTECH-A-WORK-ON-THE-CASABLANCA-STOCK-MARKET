@@ -73,7 +73,8 @@ make vault_close  # Démonte le volume et ferme le tunnel chiffré
 <img width="1270" height="680" alt="image" src="https://github.com/user-attachments/assets/4e98cd9a-dd96-4a1e-ae20-5d136577d49c" />
 
 
-Analyse Prédictive : La Simulation de Monte-Carlo
+## Analyse Prédictive : La Simulation de Monte-Carlo
+
 La simulation de Monte-Carlo transforme les données historiques (le "tempérament" passé des actifs) en un modèle de probabilités futures. Nous avons simulé 1 000 scénarios possibles pour l'évolution de notre million de MAD sur l'année 2026-2027.
 
 1. Pourquoi cette dispersion (les lignes grises) ?
@@ -81,14 +82,15 @@ Chaque ligne grise représente une trajectoire possible du marché.
 
 L'écartement des lignes illustre la volatilité cumulée d'Akdital et d'Attijariwafa Bank. Plus l'éventail est large, plus le marché est incertain.
 La ligne rouge (Moyenne) représente le scénario central. Si elle est ascendante, cela confirme que le portefeuille a un "biais haussier" basé sur ses performances historiques.
+
 2. Gestion du Risque : La Value at Risk (VaR 95%)
 La VaR est l'indicateur de référence en gestion de fonds. Elle répond à la question : "Dans le pire des cas (hors catastrophe majeure), combien puis-je perdre ?"
 
 Interprétation : Une VaR 95% signifie que dans 950 scénarios sur 1000, votre capital restera au-dessus de ce montant.
 Décisionnel : C'est ce chiffre qui permet de rassurer les investisseurs en fixant une "limite de perte probable". Si la VaR est de 920 000 MAD, on sait que le risque de perdre plus de 8% du capital est statistiquement très faible (5%).
+
 3. Conclusion pour la Stratégie d'Avril 2026
 Cette simulation nous permet de passer d'une intuition à une stratégie chiffrée :
-
 Allocation : Si la dispersion est trop forte (lignes grises trop écartées), nous pourrions décider de réduire la part d'Akdital pour augmenter celle des Bons du Trésor.
 Objectif : La tendance centrale nous donne un objectif de rendement réaliste pour notre rapport de gestion de fin d'année.
 Note technique : Les simulations reposent sur l'hypothèse que les rendements suivent une loi normale et que la volatilité de 2025 restera similaire en 2026.
